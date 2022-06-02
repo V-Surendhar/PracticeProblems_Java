@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0576b9e6-95ae-4509-82dc-61bb6851e68b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PracticeProblems.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FirstLast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Roman_Int.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SumDigits_rec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arr_ab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binomial_exponentiation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bits_zero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bs_2d.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bs_2da.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bs_inf_arr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bs_rec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ceiling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ceiling_char.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/digits_integer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fact_rec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fibo_rec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/find_rbs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/floor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ls_rec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mountain_peak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nth_root_bs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reduce_zero_rec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rev_rec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rsb_bit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twice_once_array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twice_once_bs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zeros_in_int.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29TgKpEnIHbtMwJyjNx4R5Twa0r" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.bs_2da">
+    <configuration name="Int_Roman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Int_Roman" />
+      <module name="PracticeProblems" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Roman_Int" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Roman_Int" />
+      <module name="PracticeProblems" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Roman_int" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Roman_int" />
+      <module name="PracticeProblems" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bs_2d" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bs_2d" />
+      <module name="PracticeProblems" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bs_2da" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bs_2da" />
+      <module name="PracticeProblems" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.bs_2da" />
+        <item itemvalue="Application.bs_2d" />
+        <item itemvalue="Application.Roman_Int" />
+        <item itemvalue="Application.Int_Roman" />
+        <item itemvalue="Application.Roman_int" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0576b9e6-95ae-4509-82dc-61bb6851e68b" name="Changes" comment="" />
+      <created>1653142429627</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653142429627</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ceiling_char.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Roman_Int.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/bs_2d.java</url>
+          <line>39</line>
+          <properties class="bs_2d" method="binarysearch">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/bs_2da.java</url>
+          <line>23</line>
+          <properties class="bs_2da" method="BinarySearch_2d">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PracticeProblems$ceiling_char.ic" NAME="ceiling_char Coverage Results" MODIFIED="1653202658873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
