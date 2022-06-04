@@ -20,6 +20,8 @@ public class FindduplicateNumbers {
         }
 
         //finding duplicate numbers.
+        //this algo will find all duplicates. If there one  , it will show one duplicate
+
 
         for(int k =0;k<arr.length;k++){
             if(arr[k] != k+1){

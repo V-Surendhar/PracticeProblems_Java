@@ -1,25 +1,34 @@
 import java.util.Arrays;
 
-public class cyclicsort {
+// find the smallest missing positive number;
+
+public class MissingPositive {
     public static void main(String[] args) {
 
-        int[] arr = { 4,3,2,7,8,5,6,1};
-        cs(arr);
+        int[] arr = {3,4,-1,1};
+        find((arr));
 
     }
 
-    private static void cs(int[] arr) {
+    private static void find(int[] arr) {
         int i =0;
         while(i<arr.length) {
             int correct = arr[i] - 1;
-            // *************the important part of the cyclic sort is the condition below.***************
+
             if (arr[i]>0 && arr[i]<=arr.length && arr[i] != arr[correct]) {
                 swap(arr, i, correct);
             }  else {
                 i++;
             }
         }
-        System.out.println(Arrays.toString(arr));
+        // System.out.println(Arrays.toString(arr));
+
+        for(int k=0 ; k<arr.length;k++){
+            if(arr[k] != k+1 ){
+                System.out.println(k+1);
+            }
+        }
+
     }
 
     private static void swap(int[] arr , int first , int second)
