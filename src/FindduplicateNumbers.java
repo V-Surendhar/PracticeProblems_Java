@@ -1,14 +1,13 @@
-import java.util.Arrays;
-
-public class cyclicsort {
+public class FindduplicateNumbers {
     public static void main(String[] args) {
 
-        int[] arr = { 4,3,2,7,8,5,6,1};
-        cs(arr);
-
+        int[] arr = {4,3,2,7,8,2,3,1};
+        find(arr);
     }
 
-    private static void cs(int[] arr) {
+    private static void find(int[] arr) {
+
+        //cyclic sort
         int i =0;
         while(i<arr.length) {
             int correct = arr[i] - 1;
@@ -19,9 +18,18 @@ public class cyclicsort {
                 i++;
             }
         }
-        System.out.println(Arrays.toString(arr));
-    }
 
+        //finding duplicate numbers.
+
+        for(int k =0;k<arr.length;k++){
+            if(arr[k] != k+1){
+                System.out.println(arr[k]);
+            }
+        }
+
+
+
+    }
     private static void swap(int[] arr , int first , int second)
     {
         int temp = arr[first];
