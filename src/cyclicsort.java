@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class cyclicsort {
     public static void main(String[] args) {
 
-        int[] arr = { 3,5,1,2,4};
+        int[] arr = { 4,3,2,7,8,2,3,1};
         cs(arr);
 
     }
@@ -12,9 +12,12 @@ public class cyclicsort {
         int i =0;
         while(i<arr.length) {
             int correct = arr[i] - 1;
-            if (arr[i] != arr[correct]) {
+            if (arr[i]>arr.length) {
+                i++;
+            }
+            else if (arr[i] != arr[correct]) {
                 swap(arr, i, correct);
-            } else {
+            }  else {
                 i++;
             }
         }

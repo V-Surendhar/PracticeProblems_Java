@@ -1,39 +1,40 @@
 import java.util.Arrays;
+public class insertionsort{
+    public static void main(String[] args){
+        int[] arr = {5,3,4,1,2};
+        int n =5;
+        is(arr,n);
 
-public class insertionsort {
-
-    public static void main(String[] args) {
-
-        int[] arr = { 1,3,4,5,2};
-        is(arr);
     }
 
-    private static void is(int[] arr) {
+    public static void is(int arr[] ,int n){
 
-    int i =1;
-    while(i<arr.length){
-        int k =i;
-        for(int j = k-1 ; j>-1;j--){
-            if(arr[j]<arr[k]){
-                swap(arr, j ,k);
-                k--;
-            }
-            else{
-                break;
+        for(int i =0;i<=n-2;i++){
+
+            int j=i+1;
+            while(j>0){
+                if(arr[j] < arr[j-1]){
+                    swap(arr , j , j-1 );
+                    j--;
+                }
+                else{
+                    break;
+                }
             }
         }
-        i++;
-    }
+
         System.out.println(Arrays.toString(arr));
 
     }
-    public static void swap(int[] arr , int first , int second){
 
+
+
+
+
+    public static void swap(int arr[] , int first , int second){
         int temp = arr[first];
-        arr[first]=arr[second];
-        arr[second]=temp;
-
+        arr[first]= arr[second];
+        arr[second] = temp;
     }
-
-
 }
+
