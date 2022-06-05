@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0576b9e6-95ae-4509-82dc-61bb6851e68b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MissingPositive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SetMismatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrettyPrinting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FindduplicateNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FindduplicateNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cyclicsort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cyclicsort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MissingPositive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MissingPositive.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +47,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MissingPositive">
+  <component name="RunManager" selected="Application.PrettyPrinting">
     <configuration name="FindduplicateNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FindduplicateNumbers" />
       <module name="PracticeProblems" />
@@ -64,15 +62,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetMismatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SetMismatch" />
+    <configuration name="PrettyPrinting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrettyPrinting" />
       <module name="PracticeProblems" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="allmissingnumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="allmissingnumbers" />
+    <configuration name="SetMismatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SetMismatch" />
       <module name="PracticeProblems" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,11 +85,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrettyPrinting" />
         <item itemvalue="Application.MissingPositive" />
         <item itemvalue="Application.cyclicsort" />
         <item itemvalue="Application.SetMismatch" />
         <item itemvalue="Application.FindduplicateNumbers" />
-        <item itemvalue="Application.allmissingnumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654355396009</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="First Commit">
+      <created>1654362261616</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1654362261616</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
