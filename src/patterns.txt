@@ -165,6 +165,128 @@ public class Patterns {
             /*
 
 
+        int n =10;
+        for (int row = 1; row <=2*n ; row++) {
+            int condition = (row <= n) ? row : n-(row-n);
+            for (int col = 1; col <= condition; col++) {
+                System.out.print("*");
+            }
+            System.out.println("");
+        }
+
+
+        /*
+
+
+
+         *
+         **
+         ***
+         ****
+         *****
+         ****
+         ***
+         **
+         *
+
+
+
+         */
+
+
+
+
+            int n =5;
+
+            for(int row =1 ; row <=5;row++) {
+
+                for (int space = 1; space <= n - row; space++) {
+                    System.out.print("  ");
+                }
+
+
+                for (int col = row; col >=1; col--) {
+                    System.out.print(col+" ");
+                }
+                for(int col = 2 ; col <= row ; col++){
+                    System.out.print(col+" ");
+                }
+                System.out.println("");
+
+            }
+           }
+
+
+        /*
+
+
+                1
+              2 1 2
+            3 2 1 2 3
+          4 3 2 1 2 3 4
+        5 4 3 2 1 2 3 4 5
+
+
+/*
+
+
+public class Main
+{
+	public static void main(String[] args) {
+
+
+/*
+         1
+        212
+       32123
+      4321234
+       32123
+        212
+         1
+*/
+
+
+int n =4;
+
+for(int row = 1 ; row <= 2*n;row++){
+
+
+    int condition1=(row <=n)? n-row : row-n;
+    for(int space =1;space<=condition1;space++){
+        System.out.print("  ");
+    }
+
+
+    int col =( row <=n) ?  row : row-(2*(row-n));
+    for( int col3=col;col3>=1;col3--){
+        System.out.print(col3+" ");
+    }
+
+    int condition2= (row <= n) ? row :row-(2*(row-n));
+        for(int col2=2 ; col2 <= condition2 ; col2++){
+        System.out.print(col2+" ");
+    }
+    System.out.println(" ");
+
+}
+
+
+
+ */
+
+   1
+  212
+ 32123
+4321234
+ 32123
+  212
+   1
+
+
+
+
+ /*
+
 
 
     }
