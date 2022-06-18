@@ -9,7 +9,7 @@ public class insertionsort{
 
     public static void is(int arr[] ,int n){
 
-        for(int i =0;i<=n-2;i++){
+        for(int i =0;i<n-1;i++){
 
             int j=i+1;
             while(j>0){
@@ -21,6 +21,7 @@ public class insertionsort{
                     break;
                 }
             }
+            System.out.println(Arrays.toString(arr));
         }
 
         System.out.println(Arrays.toString(arr));

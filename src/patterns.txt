@@ -288,6 +288,61 @@ for(int row = 1 ; row <= 2*n;row++){
  /*
 
 
+public class Main
+{
+
+    static int j =1;
+
+
+
+	public static int fun(int z){
+	    return (z*(z-1)/2)+z;
+	}
+
+	public static void main(String[] args) {
+
+    int n=4;
+    int k = n;
+    int o=n;
+    for(int i =1 ; i<=o ;i++){
+
+    for(int space =1;space<=i-1; space++){
+        System.out.print("  ");
+    }
+
+        int m =j;
+        for(j = m;j<=k ;j++){
+            System.out.print(j+" ");
+        }
+
+        int condition = 2*fun(n-1)+1+j-1;
+        for(int l =condition; l<condition+n ;l++)
+        {
+            System.out.print(l+" ");
+        }
+        System.out.println("");
+        n-=1;
+        k=j+n-1;
+    }
+
+
+	}
+}
+
+
+*/
+
+1 2 3 4 17 18 19 20
+  5 6 7 14 15 16
+    8 9 12 13
+      10 11
+
+/*
+
+
+
+
+
 
     }
 

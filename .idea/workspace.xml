@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0576b9e6-95ae-4509-82dc-61bb6851e68b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Lovelettermistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checksubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dummy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dummy1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dummy2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mergesort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string_recursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/subsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/subsequence_iteration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Patterns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Patterns.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/insertionsort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/insertionsort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/patterns.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,37 +56,37 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Patterns">
-    <configuration name="MissingPositive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MissingPositive" />
+  <component name="RunManager" selected="Application.mergesort">
+    <configuration name="dummy2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dummy2" />
       <module name="PracticeProblems" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Palindrome" />
+    <configuration name="insertionsort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="insertionsort" />
       <module name="PracticeProblems" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Patterns" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Patterns" />
+    <configuration name="mergesort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mergesort" />
       <module name="PracticeProblems" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrettyPrinting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrettyPrinting" />
+    <configuration name="subsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="subsequence" />
       <module name="PracticeProblems" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintAlphabets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrintAlphabets" />
+    <configuration name="subsequence_iteration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="subsequence_iteration" />
       <module name="PracticeProblems" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,11 +94,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Patterns" />
-        <item itemvalue="Application.Palindrome" />
-        <item itemvalue="Application.PrintAlphabets" />
-        <item itemvalue="Application.PrettyPrinting" />
-        <item itemvalue="Application.MissingPositive" />
+        <item itemvalue="Application.mergesort" />
+        <item itemvalue="Application.subsequence" />
+        <item itemvalue="Application.insertionsort" />
+        <item itemvalue="Application.dummy2" />
+        <item itemvalue="Application.subsequence_iteration" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654513776950</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="First Commit">
+      <created>1654533755096</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1654533755096</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +230,11 @@
           <line>5</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string_recursion.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/bs_2d.java</url>
           <line>39</line>
@@ -232,10 +253,22 @@
           </properties>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Lovelettermistry.java</url>
+          <line>11</line>
+          <properties class="Lovelettermistry" method="findfirst">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PracticeProblems_java$dummy1.ic" NAME="dummy1 Coverage Results" MODIFIED="1654787943868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/PracticeProblems$ceiling_char.ic" NAME="ceiling_char Coverage Results" MODIFIED="1653202658873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/PracticeProblems_java$string_recursion.ic" NAME="string_recursion Coverage Results" MODIFIED="1654853965440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/PracticeProblems_java$dummy2.ic" NAME="dummy2 Coverage Results" MODIFIED="1654798324924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
