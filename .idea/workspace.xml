@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0576b9e6-95ae-4509-82dc-61bb6851e68b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lovelettermistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/checksubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dummy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dummy1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dummy2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mergesort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string_recursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/subsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/subsequence_iteration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/quicksort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/insertionsort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/insertionsort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,22 +31,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/suren/IdeaProjects/PracticeProblems_java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ToolWindowRun.ShowToolbar": "false",
+    "last_opened_file_path": "/home/suren/IdeaProjects/PracticeProblems_java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="Application.mergesort">
+}]]></component>
+  <component name="RunManager" selected="Application.quicksort">
     <configuration name="dummy2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dummy2" />
       <module name="PracticeProblems" />
@@ -78,6 +69,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="quicksort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="quicksort" />
+      <module name="PracticeProblems" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="subsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="subsequence" />
       <module name="PracticeProblems" />
@@ -85,20 +83,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="subsequence_iteration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="subsequence_iteration" />
-      <module name="PracticeProblems" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.quicksort" />
         <item itemvalue="Application.mergesort" />
         <item itemvalue="Application.subsequence" />
         <item itemvalue="Application.insertionsort" />
         <item itemvalue="Application.dummy2" />
-        <item itemvalue="Application.subsequence_iteration" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654533755096</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="First Commit">
+      <created>1655550326557</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1655550326558</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
