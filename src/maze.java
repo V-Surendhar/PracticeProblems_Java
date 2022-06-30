@@ -1,5 +1,5 @@
 import java.util.*;
-public class Maze
+public class maze
 {
     public static void main(String[] args) {
 
