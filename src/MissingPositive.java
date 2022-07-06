@@ -1,5 +1,11 @@
-import java.util.Arrays;
+/*
 
+INTUITION - Here we use the cyclic sort and at last we can check whether all elements are placed correctly and the missplaced element is the missing positive number.
+
+ */
+
+
+import java.util.Arrays;
 // find the smallest missing positive number;
 
 public class MissingPositive {
@@ -21,7 +27,7 @@ public class MissingPositive {
                 i++;
             }
         }
-        // System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr));
 
         for(int k=0 ; k<arr.length;k++){
             if(arr[k] != k+1 ){

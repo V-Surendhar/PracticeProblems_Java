@@ -1,5 +1,13 @@
 import java.util.Arrays;
+/*
 
+INTUITION - The element should be placed in the correct order in which the correct
+            order determines the position with respect to the index .
+
+            FOR EXAMPLE  - Correct for array elements starting from 0 is  arr[i]
+                           Correct for array elements starting from 1 is arr[i]-1
+                           Correct for array elements starting from 7 is arr[i]-7
+ */
 public class cyclicsort {
     public static void main(String[] args) {
 

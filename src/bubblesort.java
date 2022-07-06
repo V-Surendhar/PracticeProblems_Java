@@ -1,3 +1,13 @@
+/*
+                Intuition - The array needed to sawped according to the
+                condition n-1 times and the also the outer loop should
+                run for n-1 times.
+                We can neglect checking the condition to the last elements,
+                coz its already placed in correct position.
+                So , We can make the inner loop to run arr.length-1-i .
+
+*/
+
 import java.util.Arrays;
 
 public class bubblesort {
@@ -17,6 +27,8 @@ public class bubblesort {
                     arr[j+1] = arr[j]^arr[j+1];
                     arr[j] = arr[j]^arr[j+1];
 
+                    // In order to swap using bitwise XOR ,
+                    // the elements in array should be no zero
 
                 }
 

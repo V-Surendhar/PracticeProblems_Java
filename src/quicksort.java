@@ -1,6 +1,12 @@
 import java.util.*;
 public class quicksort
 {
+    /*
+
+    INTUITION - The intuition of this type of algorithm is , we have to choose the pivot element and make the element lies right side of
+                pivot element less than pivot element and right side of the pivot element greater than the pivot element.
+
+     */
     public static void main(String[] args) {
 
         //quick sort using recursion

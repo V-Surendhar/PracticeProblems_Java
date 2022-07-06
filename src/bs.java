@@ -1,3 +1,13 @@
+/*
+
+INTUITION - We take a mid variable and check whether the mid element is greater than or less than or equal to...
+            If GREATER , end = mid-1;
+            If LESSER , start =  mid + 1;
+            If EQUAL , return  mid ;
+
+ */
+
+
 public class bs{
   public static void main(String[] args){
     

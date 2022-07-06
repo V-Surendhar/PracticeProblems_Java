@@ -1,3 +1,15 @@
+/*
+
+INTUITION - Initially , we make the row and the column to be at 0 and arr[0].length-1 respectively.
+            And we check whether the element is greater than the search , If yes C--;
+            If no , R++;
+            If equal , we return the corresponding row and column value;
+
+*/
+
+
+
+
 import java.util.Arrays;
 
 public class bs_2d {

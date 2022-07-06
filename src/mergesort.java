@@ -1,5 +1,14 @@
 import java.util.Arrays;
+/*
 
+INTUITION  - The intuition for this type of sorting algorithm is we have to spilt the array element until the array reach to single element
+             and merge correspondingly in the order we need.
+
+NOTE -  BELOW CODE IS NOT  IN-PLACE SORTING.
+
+
+
+ */
 public class mergesort {
 
     public static void main(String[] args) {
@@ -15,7 +24,7 @@ public class mergesort {
     private static int[] sort(int[] arr){
 
         int mid = arr.length/2;
-        if(arr.length <= 1){
+        if(arr.length == 1){
             return arr ;
         }
 

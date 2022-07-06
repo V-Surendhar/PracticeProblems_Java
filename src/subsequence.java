@@ -1,3 +1,10 @@
+/*
+
+INTUITION - This algorithm is based on TAKEN and NOT TAKEN A approach.
+
+
+ */
+
 public class subsequence {
 
     public static void main(String[] args) {

@@ -1,3 +1,4 @@
+
 public class ceiling_char {
     public static void main(String[] args) {
 

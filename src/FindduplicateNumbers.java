@@ -1,3 +1,13 @@
+/*
+
+INTUITION - Here we can make use of cyclic sort . Because its from 1 to n .
+            After cyclic sort the number which are not present are filled by the duplicate values.
+
+
+
+NOTED - IF THERE IS TWO DUPLICATE ELEMENTS , WE NEED TWO ELEMENTS ABSENT FROM THE ORIGINAL ARRAY , SO THAT WE CAN USE CYCLIC SORT.
+
+ */
 public class FindduplicateNumbers {
     public static void main(String[] args) {
 

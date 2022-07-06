@@ -1,3 +1,8 @@
+/*
+INTUITION - We can take a pointer and check whether the current element and the next element is greather than.
+            If yes, return true ;
+            IF no , return false;
+ */
 public class arr_ab{
   public static void main(String[] arg){
     

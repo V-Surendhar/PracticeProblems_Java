@@ -1,3 +1,12 @@
+/*
+
+INTUITION - Here in this algorithm , we fix the range ( initially the first element ) in which it is considered sorted
+            and the next element to the range is considered as k ( element to be inserted into the sorted range ) .
+            This will be continued this the range of arr.lenght-2 .
+
+ */
+
+
 import java.util.Arrays;
 public class insertionsort{
     public static void main(String[] args){

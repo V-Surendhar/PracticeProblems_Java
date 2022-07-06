@@ -23,12 +23,12 @@ public class twice_once_array{
   }
   System.out.println(Arrays.toString(arr));
   
-  for(int i =0;i<arr.length;i++){
+  for(int i =0;i<arr.length;){
     if(arr[i]==arr[i+1]){
       i=i+2;
     }
     else{
-      System.out.println(i);
+      System.out.println(arr[i]);
       break;
     }
   }

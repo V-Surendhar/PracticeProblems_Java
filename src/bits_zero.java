@@ -1,3 +1,9 @@
+/*
+
+INTUITION - We right shift the bits one by one   until the number gets to zero
+            And in each operation the count variable is incremented.
+
+ */
 public class bits_zero{
   public static void main(String[] args){
   

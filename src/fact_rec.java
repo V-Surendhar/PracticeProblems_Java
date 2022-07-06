@@ -1,3 +1,7 @@
+/*
+INTUITION - The intuition is we can add the number and the recursion of the same number-1
+
+ */
 public class fact_rec{
   public static void main(String[] args){
     

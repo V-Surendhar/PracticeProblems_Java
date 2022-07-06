@@ -1,3 +1,13 @@
+/*
+
+INTUITION - We will be given an infinite array.
+            The intuition is we search for the element chunk by chunk.
+            As it is sorted , if the element at last is smaller than the target element, It is obvious that there will not be the presence of the target.
+            Hence, we move to the next chunk.
+            The size of the chunk will be increased exponentially.
+
+ */
+
 public class bs_inf_arr {
     public static void main(String[] args) {
         int[] arr= {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20};

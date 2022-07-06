@@ -1,3 +1,13 @@
+/*
+
+INTUITION - This algorithm is based on TAKEN  and NOT TAKEN  approach
+            At first ,We take the empty arraylist(this is considered as the  NOT TAKEN  for the first array.
+            and then , We take the first element of the array and insert in the arraylist of copy of the exisiting array in the outer list. (TAKEN of the first element).
+            Likewise we do this for every element.
+
+ */
+
+
 import java.util.*;
 
 public class subsequence_iteration{

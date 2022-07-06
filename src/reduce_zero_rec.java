@@ -1,6 +1,7 @@
 public class reduce_zero_rec{
   public static void main(String[] args){
-    
+
+
     int num = 555;
     System.out.println(toreduce(num));
     

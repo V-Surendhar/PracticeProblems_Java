@@ -1,3 +1,15 @@
+/*
+
+INTUITION - If the power is odd we save the base by multiplying it in a variable  and power is reduced by one
+            If the power is even we multiply the base and base and the power will become power/2;
+            This operation will be done till the power gets to ZERO
+
+ */
+
+
+
+
+
 public class binomial_exponentiation
 {
     public static void main(String[] args) {

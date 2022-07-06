@@ -1,3 +1,4 @@
+
 public class mountain_peak {
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5,3,1};
@@ -19,7 +20,7 @@ public class mountain_peak {
         int mid = (start+end)/2;
 
         if(arr[mid]>arr[mid+1]){
-            end = mid;                //this may be the possible ans...so "end = mid" ;
+            end = mid ;                //this may be the possible ans...so "end = mid" ;
         }
         else{
             start = mid+1;

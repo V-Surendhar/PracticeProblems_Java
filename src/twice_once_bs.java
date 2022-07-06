@@ -1,3 +1,15 @@
+/*
+INTUITION  -  If we obsever the given array carefully the , first occurence of the element lies is odd index and second occurence of the element
+              lies in even index .
+              Using this clue , we check wheter the mid element follows the clue .
+              If yes , It is obvious that every other element from start to mid is in correct oder ( every element occurs twice ).
+                       So no need to check those.
+                       Hence START = MID +1 ;
+              If no ,  There is a element that interupted within the twice occuring element , resulting index change ( in that case the part of our array does not follow the clue )
+                       Hence END = MID -1 ;
+ */
+
+
 public class twice_once_bs{
     public static void main(String[] args) {
         int[] arr ={2,1,1,3,3,4,4,8,8};
@@ -33,4 +45,3 @@ public class twice_once_bs{
 // for our problem condition is similar to the xor of 1 . So we can use that.
 
 
-//Eppadi nyabaga vechika porano.... :(

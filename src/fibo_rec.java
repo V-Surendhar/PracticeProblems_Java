@@ -1,3 +1,9 @@
+/*
+
+INTUITION - The intuition here is we can split as n-1 and n-2 the number and recursively perform the operation until it reaches the
+            value less than 2 .
+
+ */
 public class fibo_rec{
   public static void main(String[] args ){
     

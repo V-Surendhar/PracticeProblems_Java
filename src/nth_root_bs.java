@@ -1,3 +1,12 @@
+/*
+
+INTUITION -Lets say ,  Our task is to find the square root of the number .
+`          It is obvious that the square root lies between the 0 to the number .
+           0 to number is a ascending order series .
+           so we can use the modified binary search algorithm to search the square root the number .
+
+ */
+
 public class nth_root_bs {
     public static void main(String[] args) {
         root(3,27);

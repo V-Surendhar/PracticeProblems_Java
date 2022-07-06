@@ -1,3 +1,9 @@
+/*
+
+ INTUITION - The mountain array simply means that the one side of the array is in one order and another side is in opposide order.
+              so we can implement both ascending order and descending order after finding the peak element.
+
+ */
 public class find_mountain_arr {
 
     public static void main(String[] args) {

@@ -1,3 +1,11 @@
+/*
+
+INTUITION - A string can be said as the subsequence of another string if , the relative order of the induvidual characters in string and every
+            elements in that string remains same to another string.
+
+
+ */
+
 public class checksubsequence
 {
     public static void main(String[] args) {

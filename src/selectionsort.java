@@ -1,5 +1,12 @@
 import java.util.Arrays;
 //Selection sort ;
+/*
+
+INTUITION - Here in this sorting algrithm , we select the range ( inititally arr.length-1 ) in which the maximum element have to be find
+            and swap that with the last element ( arr[range] )
+            By doing this , we can obtain the fisrt element in every iteration to be placed in its correct position
+
+ */
 public  class selectionsort{
     public static void main(String[] args) {
 
