@@ -13,10 +13,18 @@ final int NAME = 001;
         System.out.println("walking");
     }
 
-
-
     @Override
     void jump() {
         System.out.println("Jumping");
+    }
+
+    @Override
+    void fly() {
+        System.out.println("fly");
+    }
+
+    @Override
+    void swim() {
+        System.out.println("swim");
     }
 }

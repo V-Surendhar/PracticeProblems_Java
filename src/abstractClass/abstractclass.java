@@ -1,14 +1,12 @@
 package abstractClass;
 
-public abstract class abstractclass {
+public abstract class abstractclass extends parentabstractclass {
 
 
     final int  NAME  = 007;
     abstract void walk();
 
     public int getNAME() {
-
-
         return NAME;
     }
 

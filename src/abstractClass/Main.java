@@ -12,6 +12,7 @@ public class Main {
         System.out.println(obj1.NAME);
         System.out.println(obj1.getNAME());
         abstractclass.normal();
+        obj1.fly();
 
     }
 }
