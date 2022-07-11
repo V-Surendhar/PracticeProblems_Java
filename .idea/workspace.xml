@@ -2,61 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0576b9e6-95ae-4509-82dc-61bb6851e68b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dummy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Increasing_Chain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/brake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/media.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractClass/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractClass/abstractclass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractClass/excersice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boxweight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FindduplicateNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FindduplicateNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FirstLast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstLast.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Int_Roman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Int_Roman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lovelettermistry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MissingNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MissingPositive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MissingPositive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Palindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Patterns.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrettyPrinting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrettyPrinting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrintAlphabets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrintAlphabets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Roman_Int.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Roman_Int.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SetMismatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SetMismatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SumDigits_rec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SumDigits_rec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/allmissingnumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/allmissingnumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arr_ab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arr_ab.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/binomial_exponentiation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binomial_exponentiation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bits_zero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bits_zero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bs_2d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bs_2d.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bs_2da.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bs_2da.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bs_inf_arr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bs_inf_arr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bs_rec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bs_rec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bubblesort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bubblesort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ceiling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ceiling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ceiling_char.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ceiling_char.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/checksubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/checksubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cyclicsort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cyclicsort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/digits_integer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/digits_integer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fact_rec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fact_rec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fibo_rec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fibo_rec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/find_mountain_arr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/find_mountain_arr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/find_rbs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/find_rbs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/floor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/floor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/insertionsort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/insertionsort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ls_rec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ls_rec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mergesort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mergesort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mountain_peak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mountain_peak.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nth_root_bs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nth_root_bs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/permutation_strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/permutation_strings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/quicksort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/quicksort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reduce_zero_rec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/reduce_zero_rec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rev_rec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rev_rec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rsb_bit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rsb_bit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/selectionsort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/selectionsort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string_recursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string_recursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/subsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/subsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/subsequence_iteration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/subsequence_iteration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twice_once_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twice_once_array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twice_once_bs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twice_once_bs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zeros_in_int.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zeros_in_int.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dummy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -100,10 +60,48 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.dummy">
-    <configuration name="Patterns" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Patterns" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.abstractClass.Main">
+    <configuration name="Increasing_Chain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Increasing_Chain" />
       <module name="PracticeProblems" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Interfaces.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interfaces.Main" />
+      <module name="PracticeProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="PracticeProblems" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="abstractClass.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abstractClass.Main" />
+      <module name="PracticeProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="abstractClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,34 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="maze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="maze" />
-      <module name="PracticeProblems" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="patterns" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns" />
-      <module name="PracticeProblems" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="permutation_strings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="permutation_strings" />
-      <module name="PracticeProblems" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.abstractClass.Main" />
+        <item itemvalue="Application.Interfaces.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.dummy" />
-        <item itemvalue="Application.permutation_strings" />
-        <item itemvalue="Application.patterns" />
-        <item itemvalue="Application.Patterns" />
-        <item itemvalue="Application.maze" />
+        <item itemvalue="Application.Increasing_Chain" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656577941581</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="First Commit">
+      <created>1657098034060</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1657098034060</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -312,11 +296,6 @@
           <line>25</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dummy.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/bs_2d.java</url>
           <line>51</line>
@@ -343,6 +322,7 @@
     <SUITE FILE_PATH="coverage/PracticeProblems$ceiling_char.ic" NAME="ceiling_char Coverage Results" MODIFIED="1653202658873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/PracticeProblems_java$string_recursion.ic" NAME="string_recursion Coverage Results" MODIFIED="1654853965440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/PracticeProblems_java$nkinghts.ic" NAME="nkinghts Coverage Results" MODIFIED="1656072186927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/PracticeProblems_java$dummy.ic" NAME="dummy Coverage Results" MODIFIED="1657183461540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/PracticeProblems_java$dummy2.ic" NAME="dummy2 Coverage Results" MODIFIED="1654798324924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
