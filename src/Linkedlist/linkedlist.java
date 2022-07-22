@@ -3,14 +3,17 @@ package Linkedlist;
 public class linkedlist {
 
 
-    private Node head ;
-    private Node tail ;
+   public Node head ;
+    public Node tail ;
 
-    private Node temp ;
-    private int size = 0;
+    public Node temp ;
+    public int size = 0;
 
-
-
+    public linkedlist() {
+        this.head = null;
+        this.tail = null;
+        this.size = 0 ;
+    }
 
     public void insertFirst(int value){
 
@@ -27,7 +30,16 @@ public class linkedlist {
 
     public void insertLast(int value){
 
+
         Node node = new Node(value);
+
+        if(tail == null)
+        {
+
+            tail = node ;
+
+        }
+
         tail.next = node;
         tail = node;
         size+=1;
@@ -36,6 +48,7 @@ public class linkedlist {
             head = tail ;
 
         }
+
 
     }
 
@@ -105,7 +118,7 @@ public class linkedlist {
             System.out.print(temp.value + "  ");
             temp = temp.next;
         }
-        System.out.println();
+
 
     }
 

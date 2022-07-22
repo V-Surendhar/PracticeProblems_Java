@@ -1,4 +1,7 @@
-import org.w3c.dom.ls.LSOutput;
+package Inheritance;
+
+import Inheritance.box;
+import Inheritance.boxweight;
 
 public class Main {
 

@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0576b9e6-95ae-4509-82dc-61bb6851e68b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Linkedlist/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linkedlist/doublelinkedlist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linkedlist/linkedlist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trycatch/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Linkedlist/sortklist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bubblesortRec.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dummy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Linkedlist/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Linkedlist/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Linkedlist/linkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Linkedlist/linkedlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/allmissingnumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/allmissingnumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/box.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/boxweight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/boxweight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,33 +61,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Linkedlist.sortlist">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Linkedlist.Main" />
       <module name="PracticeProblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="arraylist.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arraylist.Main" />
-      <module name="PracticeProblems" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="comparator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="comparator.Main" />
-      <module name="PracticeProblems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="comparator.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,6 +78,32 @@
     <configuration name="dummy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dummy" />
       <module name="PracticeProblems" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sortklist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Linkedlist.sortklist" />
+      <module name="PracticeProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sortlist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Linkedlist.sortlist" />
+      <module name="PracticeProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -113,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Linkedlist.sortlist" />
+        <item itemvalue="Application.Linkedlist.sortklist" />
+        <item itemvalue="Application.Linkedlist.Main" />
         <item itemvalue="Application.dummy" />
         <item itemvalue="Application.trycatch.Main" />
-        <item itemvalue="Application.comparator.Main" />
-        <item itemvalue="Application.arraylist.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657798340392</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="commit">
+      <created>1657965501052</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1657965501053</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -296,7 +313,8 @@
     <MESSAGE value="First Commit" />
     <MESSAGE value="Commit" />
     <MESSAGE value="&#10;commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;commit" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -330,6 +348,18 @@
           <url>file://$PROJECT_DIR$/src/twice_once_array.java</url>
           <line>25</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/binomial_exponentiation.java</url>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/bs_2d.java</url>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/rsb_bit.java</url>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/bs_2d.java</url>

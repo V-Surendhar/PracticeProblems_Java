@@ -1,3 +1,5 @@
+package Inheritance;
+
 public class boxweight extends box {
 
     int weight ;

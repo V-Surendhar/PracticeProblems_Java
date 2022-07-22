@@ -1,3 +1,5 @@
+package Inheritance;
+
 public class box {
 
 int l;

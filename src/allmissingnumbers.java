@@ -10,7 +10,9 @@
                  ******The resulting array will not be in sorted order.*****
 
 
-INTUITION -
+INTUITION -  CYCLIC SORT is needed to be done and after that we need to linearly check whether the e
+             elements are placed correctly according to the index .
+             if not indexes are printed as missing numbers .
 
 
  */

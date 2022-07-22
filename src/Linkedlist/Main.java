@@ -1,12 +1,14 @@
 package Linkedlist;
 
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
 
         linkedlist list = new linkedlist();
-        list.insertFirst(9);
-        list.insertLast(4);
+//        list.insertFirst(9);
+//        list.insertLast(4);
         list.add(90);
         list.add(27);
         list.add(42);
@@ -39,6 +41,14 @@ public class Main {
         list1.printvalues();
         list1.printreverse();
         list1.printvalues();
+
+        linkedlist listdummy = new linkedlist();
+        listdummy.add(3);
+        listdummy.add(6);
+        listdummy.add(7);
+
+
+
 
     }
 
