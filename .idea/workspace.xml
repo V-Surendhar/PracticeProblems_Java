@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0576b9e6-95ae-4509-82dc-61bb6851e68b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Linkedlist/mergeKlist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linkedlist/mergelinkedlist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mergesort_inplace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Happynumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Linkedlist/lengthcycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Linkedlist/linkedlistCycleStarts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Linkedlist/linkedlistcycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Linkedlist/middlelinkedlist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Linkedlist/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Linkedlist/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Linkedlist/linkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Linkedlist/linkedlist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Linkedlist/sortklist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Linkedlist/mergeKlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Linkedlist/mergeKlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Linkedlist/mergelinkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Linkedlist/mergelinkedlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dummy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +60,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.mergesort_inplace">
+  <component name="RunManager" selected="Application.Solution">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
+      <module name="PracticeProblems" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="dummy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dummy" />
       <module name="PracticeProblems" />
@@ -69,19 +78,6 @@
     <configuration name="mergesort_inplace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mergesort_inplace" />
       <module name="PracticeProblems" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="sortklist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Linkedlist.sortklist" />
-      <module name="PracticeProblems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,8 +110,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.mergesort_inplace" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.dummy" />
+        <item itemvalue="Application.mergesort_inplace" />
         <item itemvalue="Application.trycatch.Main" />
       </list>
     </recent_temporary>
@@ -290,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658450642765</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="commit">
+      <created>1658470158434</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1658470158434</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -356,6 +360,11 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/rsb_bit.java</url>
           <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Happynumber.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/bs_2d.java</url>
