@@ -9,9 +9,15 @@ public class linkedlist {
     public Node temp ;
     public int size = 0;
 
+    public Node getHead() {
+        return head;
+    }
+
     public linkedlist() {
         this.head = null;
         this.tail = null;
+        Node newnode = new Node();
+        newnode.next = null ;
         this.size = 0 ;
     }
 
@@ -134,8 +140,8 @@ public class linkedlist {
 
     public class Node{
 
-        private int  value ;
-        private Node next ;
+        public int  value ;
+        public Node next ;
 
         public Node() {
         }
