@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0576b9e6-95ae-4509-82dc-61bb6851e68b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Happynumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linkedlist/lengthcycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linkedlist/linkedlistCycleStarts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linkedlist/linkedlistcycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linkedlist/middlelinkedlist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Linkedlist/sortlist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Linkedlist/mergeKlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Linkedlist/mergeKlist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Linkedlist/mergelinkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Linkedlist/mergelinkedlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Linkedlist/middlelinkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Linkedlist/middlelinkedlist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dummy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +55,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.dummy2">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solution" />
       <module name="PracticeProblems" />
@@ -75,45 +70,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mergesort_inplace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mergesort_inplace" />
+    <configuration name="dummy2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dummy2" />
       <module name="PracticeProblems" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sortlist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Linkedlist.sortlist" />
+    <configuration name="dummy3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dummy3" />
       <module name="PracticeProblems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="trycatch.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="trycatch.Main" />
+    <configuration name="permutation_strings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="permutation_strings" />
       <module name="PracticeProblems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="trycatch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.dummy2" />
+        <item itemvalue="Application.dummy3" />
         <item itemvalue="Application.dummy" />
-        <item itemvalue="Application.mergesort_inplace" />
-        <item itemvalue="Application.trycatch.Main" />
+        <item itemvalue="Application.permutation_strings" />
+        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658470158434</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="commit">
+      <created>1658484760409</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1658484760409</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -365,6 +356,11 @@
           <url>file://$PROJECT_DIR$/src/Happynumber.java</url>
           <line>8</line>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/permutation_strings.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/bs_2d.java</url>
