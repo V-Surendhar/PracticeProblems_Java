@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0576b9e6-95ae-4509-82dc-61bb6851e68b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Linkedlist/sortlist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/alphabetsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/findfirstmissingnumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/findkthmissingnumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/findmedian.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Linkedlist/middlelinkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Linkedlist/middlelinkedlist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dummy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,14 +58,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.dummy2">
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution" />
-      <module name="PracticeProblems" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.dummy">
     <configuration name="dummy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dummy" />
       <module name="PracticeProblems" />
@@ -70,22 +66,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dummy2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dummy2" />
+    <configuration name="findfirstmissingnumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="findfirstmissingnumber" />
       <module name="PracticeProblems" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dummy3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dummy3" />
+    <configuration name="findkthmissingnumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="findkthmissingnumber" />
       <module name="PracticeProblems" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="permutation_strings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="permutation_strings" />
+    <configuration name="findmedian" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="findmedian" />
+      <module name="PracticeProblems" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sowmiya" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sowmiya" />
       <module name="PracticeProblems" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,11 +96,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.dummy2" />
-        <item itemvalue="Application.dummy3" />
         <item itemvalue="Application.dummy" />
-        <item itemvalue="Application.permutation_strings" />
-        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.findfirstmissingnumber" />
+        <item itemvalue="Application.findkthmissingnumber" />
+        <item itemvalue="Application.findmedian" />
+        <item itemvalue="Application.sowmiya" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658484760409</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="commit">
+      <created>1659081139763</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1659081139763</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -362,6 +372,11 @@
           <line>4</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dummy.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/bs_2d.java</url>
           <line>51</line>
@@ -380,15 +395,51 @@
           </properties>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/findkthmissingnumber.java</url>
+          <line>11</line>
+          <properties class="findkthmissingnumber" method="findKthPositive">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/findfirstmissingnumber.java</url>
+          <line>54</line>
+          <properties class="findfirstmissingnumber">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/findfirstmissingnumber.java</url>
+          <line>14</line>
+          <properties class="findfirstmissingnumber" method="firstMissingPositive">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dummy.java</url>
+          <line>28</line>
+          <properties class="dummy" method="findpalindrome">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PracticeProblems_java$dummy1.ic" NAME="dummy1 Coverage Results" MODIFIED="1654787943868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/PracticeProblems$ceiling_char.ic" NAME="ceiling_char Coverage Results" MODIFIED="1653202658873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/PracticeProblems_java$string_recursion.ic" NAME="string_recursion Coverage Results" MODIFIED="1654853965440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/PracticeProblems_java$nkinghts.ic" NAME="nkinghts Coverage Results" MODIFIED="1656072186927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/PracticeProblems_java$dummy.ic" NAME="dummy Coverage Results" MODIFIED="1657183461540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/PracticeProblems_java$dummy1.ic" NAME="dummy1 Coverage Results" MODIFIED="1654787943868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/PracticeProblems_java$dummy2.ic" NAME="dummy2 Coverage Results" MODIFIED="1654798324924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/PracticeProblems_java$nkinghts.ic" NAME="nkinghts Coverage Results" MODIFIED="1656072186927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/PracticeProblems_java$string_recursion.ic" NAME="string_recursion Coverage Results" MODIFIED="1654853965440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
