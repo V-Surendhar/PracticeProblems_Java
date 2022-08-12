@@ -1,65 +1,37 @@
-public class Main{
-
-    public static void main(String[] args){
-
-        String word = "cadeceac";
+public class dummy{
 
 
-//        abcdefedcba
-//                12354321
-//                        bcdecedcb
-//                                cadeceac
-//
+    public static void main(String[] args)
+    {
 
+        int[][] arr = new int[3][3];
+        findways(arr , 0 , 0,"");
 
-
-int a =findpalindrome(word,0,word.length()-1,0);
-       if(a<2) {
-           System.out.println("palindrome");
-       }
-       else{
-           System.out.println(a);
-           System.out.println("Not a palindrome");
-       }
 
 
     }
 
 
-    public static int findpalindrome(String word , int i , int j,int count){
+    public static void findways(int[][] arr,int r , int c,String p){
 
-
-        if( word.length()%2==0){
-
-            if(i==word.length()/2 || j==word.length()/2-1) {
-                return count;
-            }
-
+        if(c<arr[0].length-1){
+            findways(arr,r,c+1,p+"R");
         }
-        else {
+        if(r<arr.length-1)
+        {
+            findways(arr, r+1,c,p+"D");
+        }
 
 
-            if (i<word.length()/2 || j>word.length()/2){
+        if(r==arr.length-1 && c== arr[0].length-1){
 
-                return count;
-
-            }
-             }
-
-
-
-
-
-
-        if(word.charAt(i) != word.charAt(j)){
-
-         return Math.min(findpalindrome(word , i , j-1,count+1), findpalindrome(word, i+1 , j,count+1));
+            System.out.println(p);
 
         }
 
-        return findpalindrome(word , i+1 , j-1 , count );
 
 
     }
+
 
 }
