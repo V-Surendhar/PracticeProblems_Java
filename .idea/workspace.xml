@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0576b9e6-95ae-4509-82dc-61bb6851e68b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/alphabetsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/findfirstmissingnumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/findkthmissingnumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/findmedian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dummy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns.txt" afterDir="false" />
-    </list>
+    <list default="true" id="0576b9e6-95ae-4509-82dc-61bb6851e68b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -295,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659081139763</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="commit">
+      <created>1660235546228</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1660235546228</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
