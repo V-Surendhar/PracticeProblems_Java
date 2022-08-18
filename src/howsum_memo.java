@@ -6,7 +6,7 @@ Time complexity - O(m*n*m)
               n is the target sum (a in this case)
 
 
-Space complexity - O(m)
+Space complexity - O(m*m)
 
  */
 

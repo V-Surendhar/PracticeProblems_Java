@@ -20,7 +20,7 @@ public class howsum {
     public static void main(String[] args){
 
 
-        System.out.println(Arrays.toString(sum(7, new int[]{2,3})));         //true
+        System.out.println(Arrays.toString(sum(7, new int[]{5,3,4,7})));         //true
 
 
 
@@ -30,7 +30,7 @@ public class howsum {
 
 
 //        System.out.println(Arrays.toString(sum(7, new int[]{5, 3, 4, 7})));   //true
-        System.out.println(Arrays.toString(sum(7778, new int[]{7, 14})));      //false
+    //    System.out.println(Arrays.toString(sum(7778, new int[]{7, 14})));      //false
 
 
 

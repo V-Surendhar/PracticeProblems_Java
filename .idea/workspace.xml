@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0576b9e6-95ae-4509-82dc-61bb6851e68b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cansum_memo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/howsum_memo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cansum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cansum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dummy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/howsum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/howsum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/howsum_memo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/howsum_memo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +55,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.howsum">
+  <component name="RunManager" selected="Application.dummy">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FBS.Main" />
       <module name="PracticeProblems" />
@@ -101,9 +99,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.dummy" />
         <item itemvalue="Application.howsum" />
         <item itemvalue="Application.cansum" />
-        <item itemvalue="Application.dummy" />
         <item itemvalue="Application.cansum_memo" />
         <item itemvalue="Application.Main" />
       </list>
@@ -328,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660668487113</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="commit">
+      <created>1660787423306</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1660787423306</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

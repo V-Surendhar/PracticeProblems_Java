@@ -1,77 +1,70 @@
-/*
-
-Time complexity - O(m^n * m)
-
-        where m is the arr.length
-              n is the target sum (a in this case)
-
-
-Space complexity - O(m)
-
- */
-
-
-
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class dummy {
+public class Main {
 
     public static void main(String[] args){
 
-        HashMap<Integer,Integer[]> memo = new HashMap<>();
-        System.out.println(Arrays.toString(sum(7, new int[]{2,3},memo)));         //true
 
-        memo.clear();
-
+        System.out.println(Arrays.toString(sum(4, new int[]{5,3,4,7})));         //true
+        System.out.println(Arrays.toString(sum(8,new int[]{2,3,5})));
 
 
 
 
 
-//        System.out.println(Arrays.toString(sum(7, new int[]{5, 3, 4, 7})));   //true
-        System.out.println(Arrays.toString(sum(7778, new int[]{7, 14},memo)));      //false
+
+
+        // System.out.println(Arrays.toString(sum(7, new int[]{5, 3, 4, 7},memo)));   //true
+        //System.out.println(Arrays.toString(sum(777, new int[]{7, 14})));      //false
 
 
 
 
     }
 
-   public static Integer[] sum(int a , int[] arr,HashMap<Integer,Integer[]> memo){
+
+
+    public static Integer[] sum(int a , int[] arr){
 
 
 
-        if(memo.containsKey(a)){
-            return memo.get(a);
-        }
+
         if( a ==0)
         {
-            return new Integer[]{ };
+            return new Integer[]{};
         }
         if(a<0){
             return null;
         }
 
+        Integer[] bestarr=null;
+
         for(int i =0;i<arr.length;i++){
 
-            Integer[] result=sum(a-arr[i],arr,memo);
+            Integer[] result=sum(a-arr[i],arr);
             if( result!=null)
             {
                 Integer[] dummy= Arrays.copyOf(result,result.length+1);
                 dummy[result.length]=arr[i];
-                memo.put(a,dummy);
-                return memo.get(a);
+
+
+
+                if( bestarr==null || dummy.length<bestarr.length){
+                    bestarr = dummy;
+                }
+
+
+
+
             }
-            else{
-                memo.put(a,null);
-            }
+
 
         }
 
-       return null;
+        return bestarr;
 
-
-   }
+    }
 
 
 
