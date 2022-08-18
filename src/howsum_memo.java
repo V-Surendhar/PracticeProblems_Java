@@ -1,6 +1,6 @@
 /*
 
-Time complexity - O(m^n * m)
+Time complexity - O(m*n*m)
 
         where m is the arr.length
               n is the target sum (a in this case)
@@ -13,16 +13,16 @@ Space complexity - O(m)
 
 
 import java.util.Arrays;
+import java.util.HashMap;
 
-
-public class howsum {
+public class howsum_memo {
 
     public static void main(String[] args){
 
+        HashMap<Integer,Integer[]> memo = new HashMap<>();
+        System.out.println(Arrays.toString(sum(7, new int[]{2,3},memo)));         //true
 
-        System.out.println(Arrays.toString(sum(7, new int[]{2,3})));         //true
-
-
+        memo.clear();
 
 
 
@@ -30,18 +30,20 @@ public class howsum {
 
 
 //        System.out.println(Arrays.toString(sum(7, new int[]{5, 3, 4, 7})));   //true
-        System.out.println(Arrays.toString(sum(7778, new int[]{7, 14})));      //false
+        System.out.println(Arrays.toString(sum(7778, new int[]{7, 14},memo)));      //false
 
 
 
 
     }
 
-    public static Integer[] sum(int a , int[] arr){
+    public static Integer[] sum(int a , int[] arr,HashMap<Integer,Integer[]> memo){
 
 
 
-
+        if(memo.containsKey(a)){
+            return memo.get(a);
+        }
         if( a ==0)
         {
             return new Integer[]{ };
@@ -52,15 +54,17 @@ public class howsum {
 
         for(int i =0;i<arr.length;i++){
 
-            Integer[] result=sum(a-arr[i],arr);
+            Integer[] result=sum(a-arr[i],arr,memo);
             if( result!=null)
             {
                 Integer[] dummy= Arrays.copyOf(result,result.length+1);
                 dummy[result.length]=arr[i];
-
-                return dummy;
+                memo.put(a,dummy);
+                return memo.get(a);
             }
-
+            else{
+                memo.put(a,null);
+            }
 
         }
 

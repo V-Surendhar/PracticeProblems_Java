@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0576b9e6-95ae-4509-82dc-61bb6851e68b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FBS/Flight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FBS/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FBS/airport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cansum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/howsum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cansum_memo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/howsum_memo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cansum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cansum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dummy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/howsum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/howsum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,19 +58,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.howsum">
-    <configuration name="BookTicket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FlightTicketBooking.BookTicket" />
-      <module name="PracticeProblems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="FlightTicketBooking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FBS.Main" />
       <module name="PracticeProblems" />
@@ -87,6 +73,13 @@
     </configuration>
     <configuration name="cansum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cansum" />
+      <module name="PracticeProblems" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cansum_memo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cansum_memo" />
       <module name="PracticeProblems" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,9 +103,9 @@
       <list>
         <item itemvalue="Application.howsum" />
         <item itemvalue="Application.cansum" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.BookTicket" />
         <item itemvalue="Application.dummy" />
+        <item itemvalue="Application.cansum_memo" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -328,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660323641088</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="commit">
+      <created>1660668487113</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1660668487113</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -406,8 +406,8 @@
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cansum.java</url>
-          <line>57</line>
+          <url>file://$PROJECT_DIR$/src/cansum_memo.java</url>
+          <line>58</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">

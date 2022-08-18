@@ -1,37 +1,78 @@
-public class dummy{
+/*
+
+Time complexity - O(m^n * m)
+
+        where m is the arr.length
+              n is the target sum (a in this case)
 
 
-    public static void main(String[] args)
-    {
+Space complexity - O(m)
 
-        int[][] arr = new int[3][3];
-        findways(arr , 0 , 0,"");
+ */
+
+
+
+import java.util.Arrays;
+import java.util.HashMap;
+
+public class dummy {
+
+    public static void main(String[] args){
+
+        HashMap<Integer,Integer[]> memo = new HashMap<>();
+        System.out.println(Arrays.toString(sum(7, new int[]{2,3},memo)));         //true
+
+        memo.clear();
+
+
+
+
+
+
+//        System.out.println(Arrays.toString(sum(7, new int[]{5, 3, 4, 7})));   //true
+        System.out.println(Arrays.toString(sum(7778, new int[]{7, 14},memo)));      //false
+
 
 
 
     }
 
+   public static Integer[] sum(int a , int[] arr,HashMap<Integer,Integer[]> memo){
 
-    public static void findways(int[][] arr,int r , int c,String p){
 
 
-        if(c<arr[0].length-1){
-            findways(arr,r,c+1,p+"R");
+        if(memo.containsKey(a)){
+            return memo.get(a);
         }
-        if(r<arr.length-1)
+        if( a ==0)
         {
-            findways(arr, r+1,c,p+"D");
+            return new Integer[]{ };
+        }
+        if(a<0){
+            return null;
         }
 
-        if(r==arr.length-1 && c== arr[0].length-1){
+        for(int i =0;i<arr.length;i++){
 
-            System.out.println(p);
+            Integer[] result=sum(a-arr[i],arr,memo);
+            if( result!=null)
+            {
+                Integer[] dummy= Arrays.copyOf(result,result.length+1);
+                dummy[result.length]=arr[i];
+                memo.put(a,dummy);
+                return memo.get(a);
+            }
+            else{
+                memo.put(a,null);
+            }
 
         }
 
+       return null;
 
 
-    }
+   }
+
 
 
 }
