@@ -1,90 +1,80 @@
-/*
-
-Time complexity  -O(n^m*m)
-Space complexity -O(m*m)
-
-
-where n is the arr.length
-      m is the variable
-
-*/
-
-
-
-
-
-import java.util.Arrays;
 import java.util.HashMap;
 
 public class dummy {
 
     public static void main(String[] args){
 
-        HashMap<Integer,Integer[]>memo=new HashMap<>();
-        System.out.println(Arrays.toString(sum(8, new int[]{5,3,4,7},memo)));         //true
-        //System.out.println(Arrays.toString(sum(5,new int[]{2,3,5})));
-
-
-
-
-memo.clear();
-
-
-        // System.out.println(Arrays.toString(sum(7, new int[]{5, 3, 4, 7},memo)));   //true
-        System.out.println(Arrays.toString(sum(100, new int[]{2,4,6,8,10,25},memo)));      //false
-
-
-
+        HashMap<String,Boolean > memo = new HashMap<>();
+        System.out.println(solution("abcdef","",new String[]{"abc","ab","cd","def","abcd"},memo));
+        memo.clear();
+        System.out.println(solution("skateboard","",new String[]{"bo","rd","ate","t","sha","sk","boar"},memo));
+        memo.clear();
+        System.out.println(solution("enterapotentpot","",new String[]{"a","p","ent","enter","et","o","t"},memo));
+        memo.clear();
+        System.out.println(solution("eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeef","",new String[]{"e","ee","eee","eeee","eeeee","eeeeee"},memo));
+        memo.clear();
 
     }
 
+    private static boolean solution(String s,String newstring,String[] arr,HashMap<String,Boolean > memo ){
 
 
-    public static Integer[] sum(int a , int[] arr,HashMap<Integer,Integer[]>memo){
 
-
-        if(memo.containsKey(a)){
-            return memo.get(a);
+        if(memo.containsKey(newstring)){
+            return memo.get(newstring);
+        }
+        if(canproceed(s,newstring)==2){
+            return true;
+        }
+        else if(canproceed(s,newstring)==0){
+            return false;
         }
 
-        if( a ==0)
-        {
-            return new Integer[]{};
-        }
-        if(a<0){
-            return null;
-        }
-
-        Integer[] bestarr=null;
 
         for(int i =0;i<arr.length;i++){
 
-            Integer[] result=sum(a-arr[i],arr,memo);
-            if( result!=null)
-            {
-                Integer[] dummy= Arrays.copyOf(result,result.length+1);
-                dummy[result.length]=arr[i];
-
-                if( bestarr==null || dummy.length<bestarr.length){
-
-
-                    bestarr = dummy;
-
-                }
-
-
-
-
+            if(solution(s,newstring+arr[i],arr,memo)){
+                memo.put(newstring,true);
+                return true;
             }
-
-
+            else{
+                memo.put(newstring,false);
+            }
         }
 
-        memo.put(a,bestarr);
-        return bestarr;
+
+        memo.put(newstring,false);
+        return false;
 
     }
 
 
+    private static int canproceed(String s , String newstring){
+
+
+        int i=0;
+        int j=0;
+        while(i!=newstring.length() && j!=s.length()){
+
+            if(newstring.charAt(i) != s.charAt(j)){
+                break;
+            }
+
+            i++;
+            j++;
+        }
+
+
+
+        if(i==newstring.length() && j==s.length()){
+            return 2; // reached the string
+        }
+
+        if(i<newstring.length()){
+            return 0; //not to continue
+        }
+        return 1;       //continue
+
+    }
 
 }

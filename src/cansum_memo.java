@@ -34,7 +34,7 @@ public class cansum_memo {
         System.out.println(solution(7, new int[]{2, 4},memo));         //false
         memo.clear();
         System.out.println(solution(8, new int[]{2, 3, 5},memo));      //true
-        System.out.println(memo);
+
         memo.clear();
         System.out.println(solution(300, new int[]{7, 14},memo));      //false
 
@@ -62,6 +62,10 @@ public class cansum_memo {
 
                 memo.put(a,true);
                 return memo.get(a);
+            }
+            else{
+                memo.put(a,false);
+
             }
 
         }

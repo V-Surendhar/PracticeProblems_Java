@@ -1,5 +1,5 @@
 
-import java.util.HashMap;
+
 
 public class cansum {
 
@@ -21,8 +21,6 @@ public class cansum {
 
 
     }
-
-
     public static boolean solution(int a , int[] arr ){
 
         if(a==0){
@@ -49,4 +47,6 @@ public class cansum {
 
 
     }
+
+
 }
