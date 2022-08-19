@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0576b9e6-95ae-4509-82dc-61bb6851e68b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/canconstruct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/canconstruct_memo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cansum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cansum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cansum_memo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cansum_memo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dummy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,16 +54,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.cansum_memo">
-    <configuration name="bestsum_memo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bestsum_memo" />
+  <component name="RunManager" selected="Application.canconstruct_memo">
+    <configuration name="canconstruct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="canconstruct" />
       <module name="PracticeProblems" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="canconstruct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="canconstruct" />
+    <configuration name="canconstruct_memo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="canconstruct_memo" />
       <module name="PracticeProblems" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,11 +92,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.cansum_memo" />
+        <item itemvalue="Application.canconstruct_memo" />
         <item itemvalue="Application.dummy" />
+        <item itemvalue="Application.cansum_memo" />
         <item itemvalue="Application.canconstruct" />
         <item itemvalue="Application.cansum" />
-        <item itemvalue="Application.bestsum_memo" />
       </list>
     </recent_temporary>
   </component>
@@ -342,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660890871546</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="commit">
+      <created>1660910277302</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1660910277302</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
