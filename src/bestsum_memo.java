@@ -1,6 +1,6 @@
 /*
 
-Time complexity  -O(n^m*m)
+Time complexity  -O(n*m*m)
 Space complexity -O(m*m)
 
 
@@ -16,7 +16,7 @@ where n is the arr.length
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class dummy {
+public class bestsum_memo {
 
     public static void main(String[] args){
 
@@ -27,7 +27,7 @@ public class dummy {
 
 
 
-memo.clear();
+        memo.clear();
 
 
         // System.out.println(Arrays.toString(sum(7, new int[]{5, 3, 4, 7},memo)));   //true

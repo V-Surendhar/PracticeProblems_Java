@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0576b9e6-95ae-4509-82dc-61bb6851e68b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/bestsum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bestsum_memo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wordcorrection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dummy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/howsum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/howsum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/howsum_memo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/howsum_memo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,28 +57,22 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.dummy">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FBS.Main" />
-      <module name="PracticeProblems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="FBS.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="cansum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cansum" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="PracticeProblems" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cansum_memo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cansum_memo" />
+    <configuration name="bestsum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bestsum" />
+      <module name="PracticeProblems" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bestsum_memo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bestsum_memo" />
       <module name="PracticeProblems" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="howsum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="howsum" />
+    <configuration name="wordcorrection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wordcorrection" />
       <module name="PracticeProblems" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,10 +95,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.dummy" />
-        <item itemvalue="Application.howsum" />
-        <item itemvalue="Application.cansum" />
-        <item itemvalue="Application.cansum_memo" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.bestsum_memo" />
+        <item itemvalue="Application.bestsum" />
+        <item itemvalue="Application.wordcorrection" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -333,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660787423306</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="commit">
+      <created>1660808032131</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1660808032131</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
