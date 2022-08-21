@@ -1,32 +1,36 @@
 /*
 
-TIME COMPLEXITY - O(m^n *n)
+TIME  COMPLEXITY - O(m^n*n)
 SPACE COMPLEXITY - O(m*m)
+
+
+
+where n -word.length
+      m -arr.length
 
  */
 
-
-import java.util.HashMap;
-
-public class dummy  {
+public class countconstruct  {
 
     public static void main(String[] args){
 
-        HashMap<String,Boolean > memo = new HashMap<>();
-        System.out.println(solution("abcdef","",new String[]{"abc","ab","cd","def","abcd","abcdef"}));
-        System.out.println(solution("skateboard","",new String[]{"bo","rd","ate","t","sha","sk","boar","skate","d"}));
-        System.out.println(solution("enterapotentpot","",new String[]{"a","p","ent","enter","et","o","t"}));
+//        HashMap<String,Boolean > memo = new HashMap<>();
+        System.out.println(solution("abcdef","",new String[]{"abc","ab","cd","def","abcd"}));
+        System.out.println(solution("skateboard","",new String[]{"bo","rd","ate","t","sha","sk","boar"}));
+        System.out.println(solution("enterapotentpot","",new String[]{"a","p","ent","enter","ot","o","t"}));
         // System.out.println(solution("eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeef","",new String[]{"e","ee","eee","eeee","eeeee","eeeeee"}));
+        System.out.println(solution("purple","",new String[]{"purp","p","ur","le","purpl"}));
 
 
     }
 
+
     private static int solution(String s,String newstring,String[] arr){
 
-        int count=0;
+        int count =0;
 
         if(canproceed(s,newstring)==2){
-            return 1;
+            return count+1;
         }
         else if(canproceed(s,newstring)==0){
             return 0;
@@ -34,9 +38,11 @@ public class dummy  {
 
 
         for(int i =0;i<arr.length;i++){
+            int temp=solution(s,newstring+arr[i],arr);
 
-            if(solution(s,newstring+arr[i],arr)==1){
-                count++;
+            if(temp !=0){
+
+                count+=temp;
 
             }
 

@@ -1,3 +1,13 @@
+/*
+
+TIME COMPLEXITY - O(m^n *n)
+SPACE COMPLEXITY - O(m*m)
+
+where n -word.length
+      m -arr.length
+ */
+
+
 import java.util.HashMap;
 
 public class canconstruct {

@@ -1,6 +1,6 @@
 /*
 
-TIME COMPLEXITY - O(m*n*n)
+TIME  COMPLEXITY - O(m*n*n)
 SPACE COMPLEXITY - O(m*m)
 
 
@@ -13,51 +13,48 @@ where n -word.length
 
 import java.util.HashMap;
 
-public class canconstruct_memo {
+public class countconstruct_memo  {
 
     public static void main(String[] args){
 
-        HashMap<String,Boolean > memo = new HashMap<>();
-        System.out.println(solution("abcdef","",new String[]{"abc","ab","cd","def"},memo));
+        HashMap<String,Integer > memo = new HashMap<>();
+        System.out.println(solution("abcdef","",new String[]{"abc","ab","cd","def","abcd"},memo));
         memo.clear();
         System.out.println(solution("skateboard","",new String[]{"bo","rd","ate","t","sha","sk","boar"},memo));
         memo.clear();
-        System.out.println(solution("enterapotentpot","",new String[]{"a","p","ent","enter","et","o","t"},memo));
+        System.out.println(solution("enterapotentpot","",new String[]{"a","p","ent","enter","ot","o","t"},memo));
         memo.clear();
         System.out.println(solution("eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeef","",new String[]{"e","ee","eee","eeee","eeeee","eeeeee"},memo));
         memo.clear();
-
+        System.out.println(solution("purple","",new String[]{"purp","p","ur","le","purpl"},memo));
+        memo.clear();
     }
 
-    private static boolean solution(String s,String newstring,String[] arr,HashMap<String,Boolean > memo ){
+    private static int solution(String s,String newstring,String[] arr,HashMap<String,Integer> memo){
 
-
+        int count=0;
 
         if(memo.containsKey(newstring)){
             return memo.get(newstring);
         }
         if(canproceed(s,newstring)==2){
-            return true;
+            return 1;
         }
         else if(canproceed(s,newstring)==0){
-            return false;
+            return 0;
         }
 
 
         for(int i =0;i<arr.length;i++){
+            int temp = solution(s,newstring+arr[i],arr,memo);
+            if(temp!=0){
+                count+=temp;
+                memo.put(newstring,count);
+            }
 
-            if(solution(s,newstring+arr[i],arr,memo)){
-                memo.put(newstring,true);
-                return true;
-            }
-            else{
-                memo.put(newstring,false);
-            }
         }
-
-
-        memo.put(newstring,false);
-        return false;
+        memo.put(newstring,count);
+        return count;
 
     }
 

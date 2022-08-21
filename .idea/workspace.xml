@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0576b9e6-95ae-4509-82dc-61bb6851e68b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/canconstruct_memo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/allconstruct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/countconstruct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/countconstruct_memo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/canconstruct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/canconstruct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/canconstruct_memo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/canconstruct_memo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dummy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +58,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.canconstruct_memo">
+  <component name="RunManager" selected="Application.allconstruct">
+    <configuration name="allconstruct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="allconstruct" />
+      <module name="PracticeProblems" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="canconstruct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="canconstruct" />
       <module name="PracticeProblems" />
@@ -69,22 +80,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cansum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cansum" />
+    <configuration name="countconstruct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="countconstruct" />
       <module name="PracticeProblems" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cansum_memo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cansum_memo" />
-      <module name="PracticeProblems" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="dummy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dummy" />
+    <configuration name="countconstruct_memo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="countconstruct_memo" />
       <module name="PracticeProblems" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,11 +96,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.allconstruct" />
+        <item itemvalue="Application.countconstruct" />
+        <item itemvalue="Application.countconstruct_memo" />
         <item itemvalue="Application.canconstruct_memo" />
-        <item itemvalue="Application.dummy" />
-        <item itemvalue="Application.cansum_memo" />
         <item itemvalue="Application.canconstruct" />
-        <item itemvalue="Application.cansum" />
       </list>
     </recent_temporary>
   </component>
@@ -347,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660910277302</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="commit">
+      <created>1660912321873</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1660912321873</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -476,12 +487,21 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/canconstruct.java</url>
-          <line>15</line>
+          <line>25</line>
           <properties class="canconstruct" method="solution">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/countconstruct_memo.java</url>
+          <line>32</line>
+          <properties class="countconstruct_memo" method="solution">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
