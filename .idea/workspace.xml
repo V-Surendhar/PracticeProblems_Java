@@ -2,13 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0576b9e6-95ae-4509-82dc-61bb6851e68b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/allconstruct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countconstruct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countconstruct_memo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/Binarytree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StackQueue/CustomDynamicQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StackQueue/CustomDynamicStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StackQueue/CustomQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StackQueue/CustomStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StackQueue/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/countingsort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dummy2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/filehandling/Main_create.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/filehandling/Main_read.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/filehandling/Main_write.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/filehandling/MyFolder/suren.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/findLeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdaexpresions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/array/array_permutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/array/shuffle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/array/sort_trinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mergesortInPlace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sort_binary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sorting_singleLoop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/canconstruct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/canconstruct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/canconstruct_memo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/canconstruct_memo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Happynumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Linkedlist/Happynumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Linkedlist/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Linkedlist/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Linkedlist/doublelinkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Linkedlist/doublelinkedlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Linkedlist/lengthcycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Linkedlist/lengthcycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Linkedlist/linkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Linkedlist/linkedlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Linkedlist/linkedlistCycleStarts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Linkedlist/linkedlistCycleStarts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Linkedlist/linkedlistcycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Linkedlist/linkedlistcycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Linkedlist/mergeKlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Linkedlist/mergeKlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Linkedlist/mergelinkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Linkedlist/mergelinkedlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Linkedlist/middlelinkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Linkedlist/middlelinkedlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Linkedlist/reorderlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Linkedlist/reorderlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Linkedlist/reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Linkedlist/reverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Linkedlist/reverselist2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Linkedlist/reverselist2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Linkedlist/sortlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Linkedlist/sortlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arraylist/arraylist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arraylist/arraylist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bits_zero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bits_zero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ceiling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/binary_search/ceiling.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dummy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/findfirstmissingnumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/findfirstmissingnumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/findmedian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/findmedian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/floor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/floor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +83,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;ToolWindowRun.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/suren/Documents&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/suren/IdeaProjects/PracticeProblems_java/src/filehandling&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
@@ -55,40 +91,56 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="BinaryTree" />
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/filehandling" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.allconstruct">
-    <configuration name="allconstruct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="allconstruct" />
+  <component name="RunManager" selected="Application.lambdaexpresions">
+    <configuration name="BinaryTree.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinaryTree.Main" />
+      <module name="PracticeProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StackQueue.Main" />
+      <module name="PracticeProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StackQueue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dummy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dummy" />
       <module name="PracticeProblems" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="canconstruct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="canconstruct" />
+    <configuration name="findLeader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="findLeader" />
       <module name="PracticeProblems" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="canconstruct_memo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="canconstruct_memo" />
-      <module name="PracticeProblems" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="countconstruct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="countconstruct" />
-      <module name="PracticeProblems" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="countconstruct_memo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="countconstruct_memo" />
+    <configuration name="lambdaexpresions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambdaexpresions" />
       <module name="PracticeProblems" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.allconstruct" />
-        <item itemvalue="Application.countconstruct" />
-        <item itemvalue="Application.countconstruct_memo" />
-        <item itemvalue="Application.canconstruct_memo" />
-        <item itemvalue="Application.canconstruct" />
+        <item itemvalue="Application.lambdaexpresions" />
+        <item itemvalue="Application.findLeader" />
+        <item itemvalue="Application.BinaryTree.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.dummy" />
       </list>
     </recent_temporary>
   </component>
@@ -358,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660912321873</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="commit">
+      <created>1661058801082</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1661058801082</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -426,7 +485,7 @@
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Happynumber.java</url>
+          <url>file://$PROJECT_DIR$/src/leetcode/Linkedlist/Happynumber.java</url>
           <line>8</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
@@ -439,6 +498,15 @@
           <url>file://$PROJECT_DIR$/src/cansum_memo.java</url>
           <line>58</line>
           <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/array/sort_trinary.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///usr/lib/jvm/jdk-18/lib/src.zip!/java.base/java/util/Arrays.java</url>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/bs_2d.java</url>
@@ -468,18 +536,18 @@
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/findfirstmissingnumber.java</url>
+          <url>file://$PROJECT_DIR$/src/leetcode/array/findfirstmissingnumber.java</url>
           <line>54</line>
-          <properties class="findfirstmissingnumber">
+          <properties class="leetcode.array.findfirstmissingnumber">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/findfirstmissingnumber.java</url>
+          <url>file://$PROJECT_DIR$/src/leetcode/array/findfirstmissingnumber.java</url>
           <line>14</line>
-          <properties class="findfirstmissingnumber" method="firstMissingPositive">
+          <properties class="leetcode.array.findfirstmissingnumber">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -502,6 +570,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/leetcode/array/shuffle.java</url>
+          <line>15</line>
+          <properties class="leetcode.array.shuffle" method="shuffle">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

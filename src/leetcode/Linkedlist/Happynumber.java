@@ -1,17 +1,18 @@
-class Solution {
+package leetcode.Linkedlist;
+
+class Happynumber {
 
 
 
     public static void main(String[] args){
 
 
-        Solution obj = new Solution();
-//boolean a =obj.isHappy(2) ;
-        System.out.println(obj.isHappy(19));
+
+        System.out.println(isHappy(19));
 
     }
 
-    public boolean isHappy(int n) {
+    public static boolean isHappy(int n) {
 
         int slow = n;
         int fast = n;
@@ -35,7 +36,7 @@ class Solution {
 
     }
 
-    public int happy(int n){
+    public static int happy(int n){
 
         int rem = 0 ;
         int sum  = 0;

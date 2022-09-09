@@ -7,7 +7,7 @@ INTUITION - We right shift the bits one by one   until the number gets to zero
 public class bits_zero{
   public static void main(String[] args){
   
-    //number of bits it need to move to attain zero
+    //number of bits it needs to move to attain zero
     
     int num = 22; //10110
     int pos = 0;

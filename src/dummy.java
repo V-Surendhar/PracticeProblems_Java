@@ -1,77 +1,134 @@
-/*
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
 
-TIME COMPLEXITY - O(m^n *n)
-SPACE COMPLEXITY - O(m*m)
+class Solution {
+    public List<Integer> countSmaller(int[] arr) {
 
- */
+        pair[] pairs=new pair[arr.length];
 
-
-import java.util.HashMap;
-
-public class dummy  {
-
-    public static void main(String[] args){
-
-        HashMap<String,Boolean > memo = new HashMap<>();
-        System.out.println(solution("abcdef","",new String[]{"abc","ab","cd","def","abcd","abcdef"}));
-        System.out.println(solution("skateboard","",new String[]{"bo","rd","ate","t","sha","sk","boar","skate","d"}));
-        System.out.println(solution("enterapotentpot","",new String[]{"a","p","ent","enter","et","o","t"}));
-        // System.out.println(solution("eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeef","",new String[]{"e","ee","eee","eeee","eeeee","eeeeee"}));
-
-
-    }
-
-    private static int solution(String s,String newstring,String[] arr){
-
-        int count=0;
-
-        if(canproceed(s,newstring)==2){
-            return 1;
+        for(int i=0;i<arr.length;i++){
+            pairs[i]=new pair(i,arr[i]);
         }
-        else if(canproceed(s,newstring)==0){
-            return 0;
+        int[] count_smaller=new int[arr.length];
+
+        mergesortInplace(pairs,0,arr.length-1,count_smaller);
+
+
+        ArrayList<Integer> list = new ArrayList<>();
+
+        for(Integer a:count_smaller){
+            list.add(a);
         }
 
-
-        for(int i =0;i<arr.length;i++){
-
-            if(solution(s,newstring+arr[i],arr)==1){
-                count++;
-
-            }
-
-        }
-        return count;
+        return list ;
 
     }
 
 
-    private static int canproceed(String s , String newstring){
 
 
-        int i=0;
-        int j=0;
-        while(i!=newstring.length() && j!=s.length()){
 
-            if(newstring.charAt(i) != s.charAt(j)){
-                break;
+
+    private  void mergesortInplace(pair[] pairs , int s, int e,int[] count_smaller){
+
+
+
+        if(s==e){
+            return;
+        }
+
+        int mid = (s+e)/2;
+
+        mergesortInplace(pairs,s,mid,count_smaller);
+        mergesortInplace(pairs,mid+1,e,count_smaller);
+
+
+
+        int i = s;
+        int j = mid+1;
+
+
+        int smallerNumbers=0;
+
+        LinkedList<pair> merged = new LinkedList<pair>();
+
+
+
+        while(j<=e && i<mid+1){
+
+
+            if(pairs[i].value<=pairs[j].value){
+
+                count_smaller[pairs[i].index]+=smallerNumbers;
+                merged.add(pairs[i]);
+
+
+                i++;
+
+
             }
+            else{
+
+                merged.add(pairs[i]);
+                smallerNumbers++;
+                j++;
+
+            }
+
+
+
+
+        }
+        while(i<mid+1){
+
+            merged.add(pairs[i]);
+            count_smaller[pairs[i].index]+=smallerNumbers;
+
 
             i++;
+
+        }
+
+        while(j<=e){
+
+            merged.add(pairs[j]);
+
+
             j++;
+
+        }
+        int pos = s;
+        for (pair m : merged) {
+            pairs[pos] = m;
+            ++pos;
         }
 
 
-
-        if(i==newstring.length() && j==s.length()){
-            return 2; // reached the string
-        }
-
-        if(i<newstring.length()){
-            return 0; //not to continue
-        }
-        return 1;       //continue
 
     }
 
+
+
+
+
+    public static class pair{
+
+        int index;
+        int value;
+
+        pair(int index,int value){
+            this.value=value;
+            this.index=index;
+        }
+
+
+    }
+
+
+
 }
+
+
+

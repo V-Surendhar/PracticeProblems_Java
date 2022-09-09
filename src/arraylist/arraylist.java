@@ -45,7 +45,7 @@ public class arraylist<T> {
         arr = new Object[size];
     }
 
-    public void add(T element){
+    public void add(Object element){
 
     if(i>= size){
 
@@ -57,7 +57,7 @@ public class arraylist<T> {
     }
 
     private Object[] copyelements(Object[] arr) {
-        Object[] brr = new Object[size*2];
+        Object[] brr = new Object[(int) (size*0.5)];
         for( int j = 0 ; j< arr.length ; j++){
 
             brr[j] = arr[j];

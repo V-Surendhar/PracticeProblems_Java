@@ -1,6 +1,4 @@
-package Linkedlist;
-
-import java.util.Arrays;
+package leetcode.Linkedlist;
 
 public class Main {
 
