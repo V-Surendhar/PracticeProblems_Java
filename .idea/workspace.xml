@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0576b9e6-95ae-4509-82dc-61bb6851e68b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/staticMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultiThreading/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TaxiBooking/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TaxiBooking/Taxi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TaxiBooking/taxiCenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pascalTriangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dummy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dummy2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,52 +67,13 @@
       <recent name="$PROJECT_DIR$/src/filehandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.dummy2">
-    <configuration name="_dummy (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="factoryConstructor_dart._dummy" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiThreading.Main" />
       <module name="PracticeProblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="factoryConstructor_dart.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_dummy (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="factoryConstructor_dart._dummy" />
-      <module name="PracticeProblems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="factoryConstructor_dart.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_dummy (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="factoryConstructor_dart._dummy" />
-      <module name="PracticeProblems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="factoryConstructor_dart.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_dummy (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="factoryConstructor_dart._dummy" />
-      <module name="PracticeProblems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="factoryConstructor_dart.*" />
+          <option name="PATTERN" value="MultiThreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,28 +107,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_dummy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="factoryConstructor_dart._dummy" />
+    <configuration name="dummy2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dummy2" />
       <module name="PracticeProblems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="factoryConstructor_dart.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_dummy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="factoryConstructor_dart._dummy" />
+    <configuration name="dummy2 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dummy2" />
       <module name="PracticeProblems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="factoryConstructor_dart.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dummy2 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dummy2" />
+      <module name="PracticeProblems" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -175,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.dummy2 (3)" />
+        <item itemvalue="Application.dummy2 (2)" />
+        <item itemvalue="Application.dummy2 (1)" />
         <item itemvalue="Application.dummy2" />
-        <item itemvalue="Application._dummy (3)" />
-        <item itemvalue="Application._dummy (2)" />
-        <item itemvalue="Application._dummy (1)" />
-        <item itemvalue="Application._dummy (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -458,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663349216194</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="commit">
+      <created>1663441949277</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1663441949277</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -549,6 +518,11 @@
           <url>jar:///usr/lib/jvm/jdk-18/lib/src.zip!/java.base/java/util/Arrays.java</url>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TaxiBooking/Main.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/bs_2d.java</url>
           <line>51</line>
@@ -628,7 +602,7 @@
     <SUITE FILE_PATH="coverage/PracticeProblems$ceiling_char.ic" NAME="ceiling_char Coverage Results" MODIFIED="1653202658873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/PracticeProblems_java$dummy.ic" NAME="dummy Coverage Results" MODIFIED="1657183461540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/PracticeProblems_java$dummy1.ic" NAME="dummy1 Coverage Results" MODIFIED="1654787943868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/PracticeProblems_java$dummy2.ic" NAME="dummy2 Coverage Results" MODIFIED="1654798324924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/PracticeProblems_java$dummy2.ic" NAME="dummy2 Coverage Results" MODIFIED="1664124268600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/PracticeProblems_java$nkinghts.ic" NAME="nkinghts Coverage Results" MODIFIED="1656072186927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/PracticeProblems_java$string_recursion.ic" NAME="string_recursion Coverage Results" MODIFIED="1654853965440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
