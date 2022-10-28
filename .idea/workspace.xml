@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0576b9e6-95ae-4509-82dc-61bb6851e68b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MultiThreading/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TaxiBooking/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TaxiBooking/Taxi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TaxiBooking/taxiCenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pascalTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diagonalMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spiralMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enum/Enum_Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enum/Enum_Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MultiThreading/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultiThreading/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dummy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dummy2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dummy2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dummy2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mergesort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mergesort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,69 +68,42 @@
       <recent name="$PROJECT_DIR$/src/filehandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultiThreading.Main" />
-      <module name="PracticeProblems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MultiThreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_dummy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="factoryConstructor_dart._dummy" />
-      <module name="PracticeProblems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="factoryConstructor_dart.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_dummy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="factoryConstructor_dart._dummy" />
-      <module name="PracticeProblems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="factoryConstructor_dart.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="dummy2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dummy2" />
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="2+5" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.dummy">
+    <configuration name="dummy (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dummy" />
       <module name="PracticeProblems" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dummy2 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dummy2" />
+    <configuration name="dummy (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dummy" />
       <module name="PracticeProblems" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dummy2 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dummy2" />
+    <configuration name="dummy (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dummy" />
       <module name="PracticeProblems" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dummy2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dummy2" />
+    <configuration name="dummy (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dummy" />
+      <module name="PracticeProblems" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dummy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dummy" />
       <module name="PracticeProblems" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.dummy2 (3)" />
-        <item itemvalue="Application.dummy2 (2)" />
-        <item itemvalue="Application.dummy2 (1)" />
-        <item itemvalue="Application.dummy2" />
+        <item itemvalue="Application.dummy" />
+        <item itemvalue="Application.dummy (4)" />
+        <item itemvalue="Application.dummy (3)" />
+        <item itemvalue="Application.dummy (2)" />
+        <item itemvalue="Application.dummy (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -427,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663441949277</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="commit">
+      <created>1665251894762</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1665251894762</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -522,6 +503,16 @@
           <url>file://$PROJECT_DIR$/src/TaxiBooking/Main.java</url>
           <line>14</line>
           <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/diagonalMatrix.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lps.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/bs_2d.java</url>

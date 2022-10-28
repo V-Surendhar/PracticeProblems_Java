@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) throws InterruptedException {
 
         Printdata obj=new Printdata();
+
         Thread obj1 = new Thread(new Thread1(obj));
         obj1.start();
 
@@ -24,7 +25,7 @@ public class Main {
 }
 class Printdata {
 
-    synchronized public void Print(String Name) {
+     public void Print(String Name) {
 
         for (int i = 0; i < 10; i++) {
             System.out.println(Name);

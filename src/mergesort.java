@@ -9,7 +9,7 @@ NOTE -  BELOW CODE IS NOT  IN-PLACE SORTING.
 
 
  */
-public class mergesort {
+class mergesort {
 
     public static void main(String[] args) {
 

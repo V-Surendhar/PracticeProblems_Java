@@ -25,9 +25,10 @@ public class Enum_Example {
         Week week=Week.Sunday;
         System.out.println(week.ordinal());
 
-        for(Week day : Week.values()){
-            System.out.println(day);
-        }
+
+
+
+
         week.hellomessage();
         System.out.println("");
 
@@ -39,3 +40,29 @@ public class Enum_Example {
     }
 
 }
+
+//
+//
+//enum StudentMarks {
+//    //Constants with values
+//    Krishna(86), Katyayani(75), Bhanu(89), Bhargav(70), Lata(90);
+//    //Instance variable
+//    private int marks;
+//    //Constructor to initialize the instance variable
+//    StudentMarks(int marks) {
+//        this.marks = marks;
+//    }
+//    public static void getMarks(int model){
+//        StudentMarks marks[] = StudentMarks.values();
+//        System.out.println("Price of: "+marks[model]+" is "+marks[model].marks);
+//    }
+//}
+//public class Sample{
+//    public static void main(String args[]){
+//        StudentMarks m[] = StudentMarks.values();
+//        for(int i = 0; i<m.length; i++ ) {
+//            StudentMarks.getMarks(i);
+//        }
+//    }
+//}
+
